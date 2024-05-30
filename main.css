@@ -2,43 +2,9 @@
     padding: 0;
     margin: 0;
 }
-body{
-    font-family:sans-serif;
-}
-header{
-    background-color: rgb(83, 192, 0);
-}
-.menu{
-    display: flex;
-    list-style: none;
-}
-.nav-menu{
-        max-width: 1280px;
-        height: 70px;
-        align-items: center;
-        margin-inline: auto;
-        display: flex;
-        justify-content: space-between;
-      
-}
-nav a {
-    text-decoration: none;
-    color: #333;
-    margin: 0 10px;
-    padding: 5px 10px; /* Adiciona padding ao link para parecer um botão */
-}
-.botao {
-    background-color: #007bff;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    text-decoration: none;
-}
 
-.botao:hover {
-    background-color: #0056b3;
-    border-color: #003875; /* Altera a cor da borda no hover */
-}
+/*--------------------------*/
+
 
 .Hero-title{
     display: flex;
@@ -57,7 +23,7 @@ nav a {
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-top: 50px;
+    margin: 50px;
 }
 .paragh{
     max-width: 60%;
@@ -81,18 +47,24 @@ nav a {
   align-items: center;
   justify-content: center;
   padding: 50px;
+  margin: 0 auto;
 }
 
 .mapa-brasil{
-  width: 50%;
+  width: 40%;
+  border: 1px solid #000000;
+  padding: 30px;
+  border-radius: 10px;
 }
 
 .norte, .nordeste, .centro-oeste, .sudeste, .sul {
   transition: fill 0.1s ease;
+  border: 4px solid #000000;
 }
 
 .norte {
   fill: #63ab3f;
+  border: 4px solid #000000;
 }
 
 .nordeste {
@@ -100,7 +72,7 @@ nav a {
 }
 
 .centro-oeste {
-  fill: #ffae70;
+  fill: #db7323;
 }
 
 .sudeste {
@@ -109,10 +81,12 @@ nav a {
 
 .sul {
   fill: #686f99;
+  border: 4px solid #000000;
 }
 
 g:hover {
-  fill: red;
+  fill: rgba(0, 20, 241, 0.406);
+  
 }
 
 .tooltip {
@@ -147,12 +121,9 @@ g:hover {
   border-top: 10px solid white;
 }
 
-
-
-
-
-  
   /*-----------------------------------------------*/
+
+
   .progress-bar {
     display: flex;
     align-items: center;
@@ -196,20 +167,23 @@ g:hover {
 .progress-step:not(:last-child) {
     margin-right: calc((100% - 200px) / 4); /* Espaçamento entre os círculos */
 }
+
 .video-holder{
-  background-color: #f0f0f0;
-    margin: 0;
-    height: 100vh;
-    padding: 40px;
+  background-color: #ededed;
+  margin: 0;
+  padding: 60px;
 }
 .video-container {
   width: 80%;
   max-width: 800px;
-  padding: 20px;
-  background-color: #333;
+  background-color: #613131;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
   
 }
 video {
@@ -222,7 +196,7 @@ video {
     justify-content: center;
     align-items: center;
     margin-inline: auto;
-    
+
 }
 .multi-menu{
     display: flex;
